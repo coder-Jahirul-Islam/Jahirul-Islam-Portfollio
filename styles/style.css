@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* primary color */
+.primary-color{
+    color:#FD6E0A;
+}
+.btn-primary{
+    font-weight: 700;
+    color:#FFFFFF;
+    height: 64px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    border:none;
+    padding:18px 35px;
+}
+
+
+/* Starts header */
+.header{
+    background-color:#FFF8F3 ;
+    background-image:url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat:no-repeat;
+    background-position:bottom right,left;
+}
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.nav-title{
+    font-weight:800;
+    font-size:45px;
+    line-height: 41px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    text-transform: capitalize;
+    margin-left:50px;
+}
+
+
+/* bannner starts */
+.banner{
+    margin:0 150px;
+    display: flex;
+    align-items:center;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size:45px;
+    margin-bottom:20px;
+   
+}
+
+.banner-titile{
+    font-weight: 600;
+    font-size: 85px;
+    margin-bottom: 8px;
+}
+.banner-desc{
+    color:#757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+
+}
+/* bannner ends */
+
+/* Main section starts */
+main{
+    max-width:1140px;
+    margin:0 auto;
+}
+.about{
+    margin-top:100px;
+
+}
+.section-title{
+
+}
+
+
+
+/* about starts */
+
+
+
+
