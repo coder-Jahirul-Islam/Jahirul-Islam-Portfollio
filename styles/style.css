@@ -19,6 +19,9 @@
     border:none;
     padding:18px 35px;
 }
+section{
+    margin-top: 80px;
+}
 
 
 /* Starts header */
@@ -80,20 +83,22 @@ nav ul li{
 
 /* Main & about section starts */
 main{
-    max-width:913px;
-    margin-top:100px;
+    max-width:813px;
     margin:0 auto;
   
 }
 .about{
-    margin-top:130px;
     background-color: #FFF8F3;
     border-radius: 10px;
     padding:130px 150px;
     text-align: center;
-
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .section-title{
+    text-align: center;
     font-size: 35px;
     font-weight: 700;
     margin-bottom:30px;
@@ -114,9 +119,52 @@ main{
     font-size: 20;
     color:#474747;
 }
-
-
 /* about/main section ends here*/
+
+
+/* What i do section starts */
+.what-i-do{
+    max-width:813px;
+    margin:0 auto;
+    text-align: center;
+    margin-top:80px;
+}
+
+.skill-container{
+    display: flex;
+    gap:24px;
+
+}
+.skill{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0,0.06);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding:30px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+.skill-desc{
+    color:#757575;
+    font-weight: 700;
+    font-size: 20;
+    
+}
+
+/* What i do section Ends */
+
+/* Resume section starts */
+
+
+/* Resume section ends */
+
 
 
 
