@@ -1,173 +1,225 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* primary color */
-.primary-color{
-    color:#FD6E0A;
+.primary-color {
+    color: #FD6E0A;
 }
-.btn-primary{
+.btn-primary-2{
+    width: fit-content;
+
+justify-content: center;
+}
+
+.btn-primary {
     font-weight: 700;
-    color:#FFFFFF;
+    color: #FFFFFF;
     height: 64px;
     background-color: #FD6E0A;
     border-radius: 5px;
     font-size: 20px;
-    border:none;
-    padding:18px 35px;
+    border: none;
+    padding: 18px 35px;
 }
-section{
+
+section {
     margin-top: 80px;
+    margin: 0 auto;
 }
 
 
 /* Starts header */
-.header{
-    background-color:#FFF8F3 ;
-    background-image:url(../images/header_bg.png),url(../images/developer.png);
-    background-repeat:no-repeat;
-    background-position:bottom right,left;
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
-nav{ 
+
+nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 150px;
 }
-.nav-title{
-    font-weight:800;
-    font-size:45px;
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
     line-height: 41px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     text-transform: capitalize;
-    margin-left:50px;
+    margin-left: 50px;
 }
 
 
 /* bannner starts */
-.banner{
-    margin:0 150px;
+.banner {
+    margin: 0 150px;
     display: flex;
-    align-items:center;
-}
-.banner-sub-title{
-    font-weight: 600;
-    font-size:45px;
-    margin-bottom:20px;
-   
+    align-items: center;
 }
 
-.banner-titile{
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+
+.banner-titile {
     font-weight: 600;
     font-size: 85px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
-.banner-desc{
-    color:#757575;
+
+.banner-desc {
+    color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
 }
+
 /* banner ends */
 
 
 
 
 /* Main & about section starts */
-main{
-    max-width:813px;
-    margin:0 auto;
-  
+main {
+    max-width: 813px;
+    margin: 0 auto;
+
 }
-.about{
+
+.about {
     background-color: #FFF8F3;
     border-radius: 10px;
-    padding:130px 150px;
+    padding: 130px 150px;
     text-align: center;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.section-title{
+
+.section-title {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    margin-bottom:30px;
+    margin-bottom: 30px;
     font-size: 18px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
-    margin-top:30px;
+    margin-top: 30px;
 }
-.about-info .info-title{
+
+.about-info .info-title {
     font-size: 20px;
-    color:#757575;
-    margin-bottom:18px;
+    color: #757575;
+    margin-bottom: 18px;
 }
-.info-desc{
+
+.info-desc {
     font-weight: 700;
     font-size: 20;
-    color:#474747;
+    color: #474747;
 }
+
 /* about/main section ends here*/
 
 
 /* What i do section starts */
-.what-i-do{
-    max-width:813px;
-    margin:0 auto;
+.what-i-do {
+    max-width: 813px;
+    margin: 0 auto;
     text-align: center;
-    margin-top:80px;
+    margin-top: 80px;
 }
 
-.skill-container{
+.skill-container {
     display: flex;
-    gap:24px;
+    gap: 24px;
 
 }
-.skill{
+
+.skill {
     background-color: #FFFFFF;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0,0.06);
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    padding:30px;
+    padding: 30px;
 }
-.skill-title{
+
+.skill-title {
     font-size: 20px;
     font-weight: 700;
-    margin-top:30px;
-    margin-bottom:50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
-.skill-desc{
-    color:#757575;
+
+.skill-desc {
+    color: #757575;
     font-weight: 700;
     font-size: 20;
-    
+
 }
 
 /* What i do section Ends */
 
 /* Resume section starts */
 
+.resume {
+    max-width: 813px;
+    margin: 0 auto;
+
+}
+
+.resume .resume-content {
+    display: flex;
+    gap:24px;
+}
+.resume-item{
+    margin:30px 0px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color:#474747;
+    margin-bottom: 10px;
+
+}
+.resume .sub-title{
+    color:#757575;
+    font-weight:600;
+    font-size: 20px;
+    margin-bottom: 20px;
+ 
+
+}
+.resume .description{
+    color:#757575;
+
+}
+
+
 
 /* Resume section ends */
-
-
-
-
-
-
-
