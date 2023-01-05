@@ -66,33 +66,59 @@ nav ul li{
 .banner-titile{
     font-weight: 600;
     font-size: 85px;
-    margin-bottom: 8px;
+    margin-bottom:5px;
 }
 .banner-desc{
     color:#757575;
     font-size: 18px;
     margin-bottom: 30px;
-
-
 }
-/* bannner ends */
+/* banner ends */
 
-/* Main section starts */
+
+
+
+/* Main & about section starts */
 main{
-    max-width:1140px;
+    max-width:913px;
+    margin-top:100px;
     margin:0 auto;
+  
 }
 .about{
-    margin-top:100px;
+    margin-top:130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding:130px 150px;
+    text-align: center;
 
 }
 .section-title{
-
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top:30px;
+}
+.about-info .info-title{
+    font-size: 20px;
+    color:#757575;
+    margin-bottom:18px;
+}
+.info-desc{
+    font-weight: 700;
+    font-size: 20;
+    color:#474747;
 }
 
 
+/* about/main section ends here*/
 
-/* about starts */
+
 
 
 
